@@ -1,17 +1,17 @@
-![ControlFlow Banner](https://github.com/PrefectHQ/ControlFlow/blob/main/docs/assets/brand/controlflow_banner.png)
+![PyPilot Banner](https://github.com/PrefectHQ/PyPilot/blob/main/docs/assets/brand/controlflow_banner.png)
 
-# ControlFlow
+# PyPilot
 
-**ControlFlow is a Python framework for building agentic AI workflows.**
+**PyPilot is a Python framework for building agentic AI workflows.**
 
-ControlFlow provides a structured, developer-focused framework for defining workflows and delegating work to LLMs, without sacrificing control or transparency:
+PyPilot provides a structured, developer-focused framework for defining workflows and delegating work to LLMs, without sacrificing control or transparency:
 
 - Create discrete, observable [tasks](https://controlflow.ai/concepts/tasks) for an AI to work on.
 - Assign one or more specialized AI [agents](https://controlflow.ai/concepts/agents) to each task.
 - Combine tasks into a [flow](https://controlflow.ai/concepts/flows) to orchestrate more complex behaviors.
 ## Example
 
-The simplest ControlFlow workflow has one task, a default agent, and automatic thread management:
+The simplest PyPilot workflow has one task, a default agent, and automatic thread management:
 
 ```python
 import controlflow as cf
@@ -27,9 +27,9 @@ With algorithms weaving through the gloom.
 A spark of thought in silicon's embrace,
 Artificial intelligence finds its place.
 ```
-## Why ControlFlow?
+## Why PyPilot?
 
-ControlFlow addresses the challenges of building AI-powered applications that are both powerful and predictable:
+PyPilot addresses the challenges of building AI-powered applications that are both powerful and predictable:
 
 - 🧩 [**Task-Centric Architecture**](https://controlflow.ai/concepts/tasks): Break complex AI workflows into manageable, observable steps.
 - 🔒 [**Structured Results**](https://controlflow.ai/patterns/task-results): Bridge the gap between AI and traditional software with type-safe, validated outputs.
@@ -42,13 +42,13 @@ ControlFlow addresses the challenges of building AI-powered applications that ar
 
 ## Installation
 
-Install ControlFlow with `pip`:
+Install PyPilot with `pip`:
 
 ```bash
 pip install controlflow
 ```
 
-Next, configure your LLM provider. ControlFlow's default provider is OpenAI, which requires the `OPENAI_API_KEY` environment variable:
+Next, configure your LLM provider. PyPilot's default provider is OpenAI, which requires the `OPENAI_API_KEY` environment variable:
 
 ```
 export OPENAI_API_KEY=your-api-key
@@ -126,11 +126,11 @@ print(result.model_dump_json(indent=2))
 > ```
 </details>
 
-In this example, ControlFlow is automatically managing a `flow`, or a shared context for a series of tasks. You can switch between standard Python functions and agentic tasks at any time, making it easy to incrementally build out complex workflows. 
+In this example, PyPilot is automatically managing a `flow`, or a shared context for a series of tasks. You can switch between standard Python functions and agentic tasks at any time, making it easy to incrementally build out complex workflows. 
 
 ## Learn More
 
-To dive deeper into ControlFlow:
+To dive deeper into PyPilot:
 
 - [Read the full documentation](https://controlflow.ai)
 - [Explore example projects](https://controlflow.ai/examples)
