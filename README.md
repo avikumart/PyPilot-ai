@@ -1,4 +1,5 @@
-![PyPilot Banner](https://github.com/PyPilot-ai/PyPilot/github/pypilot_github-banner.png)
+
+![pypilot_github-banner](https://github.com/user-attachments/assets/98829416-ba33-4813-bff7-36c6b84ca0dc)
 
 # PyPilot
 
