@@ -1,8 +1,6 @@
 
 ![pypilot_github-banner](https://github.com/user-attachments/assets/98829416-ba33-4813-bff7-36c6b84ca0dc)
 
-# PyPilot
-
 **PyPilot is a Python framework for creating intelligent AI workflows.**
 
 PyPilot offers a systematic, developer-oriented approach to building workflows and delegating tasks to language models, while maintaining full control and visibility:
