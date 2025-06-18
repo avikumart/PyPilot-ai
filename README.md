@@ -13,7 +13,7 @@ PyPilot offers a systematic, developer-oriented approach to building workflows a
 A basic PyPilot workflow consists of a single task, default agent, and automatic thread handling:
 
 ```python
-import controlflow as cf
+import pypilot as cf
 
 result = pypilot.run("Write a short poem about artificial intelligence")
 
@@ -44,7 +44,7 @@ PyPilot solves the fundamental challenges of developing AI applications that are
 Install PyPilot using `pip`:
 
 ```bash
-pip install controlflow
+pip install pypilot
 ```
 
 Then set up your LLM provider. PyPilot defaults to OpenAI, requiring the `OPENAI_API_KEY` environment variable:
@@ -60,7 +60,7 @@ For alternative LLM providers, [refer to the LLM configuration guide](https://py
 This comprehensive example demonstrates user interaction, multi-stage workflows, and structured data handling:
 
 ```python
-import controlflow as cf
+import pypilot as cf
 from pydantic import BaseModel
 
 
