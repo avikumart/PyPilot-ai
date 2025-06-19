@@ -60,7 +60,7 @@ For alternative LLM providers, [refer to the LLM configuration guide](https://py
 This comprehensive example demonstrates user interaction, multi-stage workflows, and structured data handling:
 
 ```python
-import pypilot as cf
+import pypilot as pypilot
 from pydantic import BaseModel
 
 
