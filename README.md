@@ -13,7 +13,7 @@ PyPilot offers a systematic, developer-oriented approach to building workflows a
 A basic PyPilot workflow consists of a single task, default agent, and automatic thread handling:
 
 ```python
-import pypilot as cf
+import pypilot as pypilot
 
 result = pypilot.run("Write a short poem about artificial intelligence")
 
@@ -70,17 +70,17 @@ class ResearchProposal(BaseModel):
     key_points: list[str]
 
 
-@cf.flow
+@pypilot.flow
 def research_proposal_flow():
 
     # Task 1: Get the research topic from the user
-    user_input = cf.Task(
+    user_input = pypilot.Task(
         "Work with the user to choose a research topic",
         interactive=True,
     )
     
     # Task 2: Generate a structured research proposal
-    proposal = cf.run(
+    proposal = pypilot.run(
         "Generate a structured research proposal",
         result_type=ResearchProposal,
         depends_on=[user_input]
